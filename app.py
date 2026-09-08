@@ -1,0 +1,23 @@
+from lessons.dataTypes.lessonNumbers import lesson_integers, lesson_floats, lesson_numbers
+from lessons.dataTypes.lessonBoolean import lesson_boolean, lesson_comparison_operators
+
+print("Integers Lesson")
+print("--------------------------------\n")
+
+lesson_integers()
+print("--------------------------------\n")
+print("Floats Lesson")
+print("--------------------------------\n")
+lesson_floats()
+print("--------------------------------\n")
+print("Numbers Lesson")
+print("--------------------------------\n")
+lesson_numbers()
+print("--------------------------------\n")
+print("Boolean Lesson")
+print("--------------------------------\n")
+lesson_boolean()
+print("--------------------------------\n")
+print("Comparison Operators Lesson")
+print("--------------------------------\n")
+lesson_comparison_operators()

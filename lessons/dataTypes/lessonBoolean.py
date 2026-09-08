@@ -1,0 +1,21 @@
+def lesson_boolean():
+    print(f"True and False: {True and False}")
+    print(f"True or False: {True or False}")
+    print(f"Not True: {not True}")
+    print(f"Not False: {not False}")
+    print(f"True and True: {True and True}")
+    print(f"True or True: {True or True}")
+    print(f"Not True: {not True}")
+    print(f"Not False: {not False}")
+
+def lesson_comparison_operators():
+    print(f"10 > 5: {10 > 5}")
+    print(f"10 < 5: {10 < 5}")
+    print(f"10 >= 5: {10 >= 5}")
+    print(f"10 <= 5: {10 <= 5}")
+    print(f"10 == 5: {10 == 5}")
+    print(f"10 != 5: {10 != 5}")
+    print(f"10 is 5: {10 is 5}")
+    print(f"10 is not 5: {10 is not 5}")
+    print(f"10 is 10: {10 is 10}")
+    print(f"10 is not 10: {10 is not 10}")
