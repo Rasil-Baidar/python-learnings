@@ -6,7 +6,7 @@ from lessons.dataTypes.lessonsDict import lesson_dict
 from lessons.dataTypes.lessonsSet import lesson_set
 from lessons.dataTypes.lessonsRange import lesson_range
 
-from lessons.controlFlow.ifElse import ifElse
+from lessons.controlFlow.ifElse import ifElse, isPositive, isEven
 
 
 print("Integers Lesson")
@@ -58,3 +58,16 @@ print("--------------------------------\n")
 print("If Else Lesson")
 print("--------------------------------\n")
 ifElse(4)
+print("--------------------------------\n")
+print("Is Positive Lesson")
+print("--------------------------------\n")
+isPositive(-10)
+print("Is Positive Lesson")
+print("--------------------------------\n")
+isPositive(10)
+print("Is Even Lesson")
+print("--------------------------------\n")
+isEven(10)
+print("Is Even Lesson")
+print("--------------------------------\n")
+isEven(11)
