@@ -38,4 +38,3 @@ def lesson_tuple():
     print(f"reverse tupleVal using [::-1] :{tupleVal[::-1]}")
     print(f"tupleVal * 2: {tupleVal * 2}")
     print(f"reverse tupleVal using tuple(reversed(tupleVal)) :{tuple(reversed(tupleVal))}")
-

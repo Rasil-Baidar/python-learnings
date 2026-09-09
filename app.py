@@ -2,6 +2,7 @@ from lessons.dataTypes.lessonNumbers import lesson_integers, lesson_floats, less
 from lessons.dataTypes.lessonBoolean import lesson_boolean, lesson_comparison_operators
 from lessons.dataTypes.lessonsStrings import lesson_strings
 from lessons.dataTypes.lessonsListTuples import lesson_list, lesson_tuple
+from lessons.dataTypes.lessonsDict import lesson_dict
 
 print("Integers Lesson")
 print("--------------------------------\n")
@@ -36,3 +37,7 @@ print("--------------------------------\n")
 print("Tuple Lesson")
 print("--------------------------------\n")
 lesson_tuple()
+print("--------------------------------\n")
+print("Dict Lesson")
+print("--------------------------------\n")
+lesson_dict()
