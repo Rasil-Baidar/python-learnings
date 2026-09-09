@@ -11,3 +11,10 @@ def lesson_while_loop():
         print(f"Number: {num} is {sum}")
         num+=1
     print(f"Sum of number from 1 to 100 is {sum}")
+
+    number = 1
+    while number <= 3:
+        print(number)
+        number += 1
+    else:
+        print(f"Loop completed with number {number}")
