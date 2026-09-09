@@ -10,6 +10,9 @@ from lessons.controlFlow.ifElse import ifElse, isPositive, isEven
 from lessons.controlFlow.forLoops import lesson_for_loops
 from lessons.controlFlow.whileLoop import lesson_while_loop
 
+from lessons.controlFlow.functionLessons import calcHt, addAll, display_person
+
+
 print("Integers Lesson")
 print("--------------------------------\n")
 
@@ -80,3 +83,16 @@ print("--------------------------------\n")
 print("While Loop Lesson")
 print("--------------------------------\n")
 lesson_while_loop()
+
+print("--------------------------------\n")
+print("Function Lesson")
+print("--------------------------------\n")
+print(calcHt(10, 20))
+print("--------------------------------\n")
+print("Add All Lesson")
+print("--------------------------------\n")
+print(addAll(1,2,3,4))
+print("--------------------------------\n")
+print("Display Person Lesson")
+print("--------------------------------\n")
+display_person(name="Rasil", age=20, city="Sydney", email="rasil@gmail.com")
