@@ -5,6 +5,10 @@ from lessons.dataTypes.lessonsListTuples import lesson_list, lesson_tuple
 from lessons.dataTypes.lessonsDict import lesson_dict
 from lessons.dataTypes.lessonsSet import lesson_set
 from lessons.dataTypes.lessonsRange import lesson_range
+
+from lessons.controlFlow.ifElse import ifElse
+
+
 print("Integers Lesson")
 print("--------------------------------\n")
 
@@ -50,3 +54,7 @@ print("--------------------------------\n")
 print("Range Lesson")
 print("--------------------------------\n")
 lesson_range()
+print("--------------------------------\n")
+print("If Else Lesson")
+print("--------------------------------\n")
+ifElse(4)
