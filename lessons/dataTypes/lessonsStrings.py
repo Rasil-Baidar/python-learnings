@@ -1,0 +1,21 @@
+def lesson_strings():
+    stringValue1 = "This is Rasil's journey to learn Python"
+    stringValue2 = "Howdy"
+    print(f"Concatenation of stringValue1 and stringValue2: {stringValue1 + stringValue2}")
+    print(f"Multiplication of stringValue2 by 3: {stringValue2 * 3}")
+    print(f"Rasil in stringvalue1:{'Rasil' in stringValue1}")
+    print(f"len(stringValue1): {len(stringValue1)}")
+    print(f"stringValue1.upper(): {stringValue1.upper()}")
+    print(f"stringValue1.lower(): {stringValue1.lower()}")
+    print(f"stringValue1.capitalize(): {stringValue1.capitalize()}")
+    print(f"stringValue1.title(): {stringValue1.title()}")
+    print(f"stringValue1.swapcase(): {stringValue1.swapcase()}")
+    print(f"stringValue1.replace('Python', 'Java'): {stringValue1.replace('Python', 'Java')}")
+    print(f"stringValue1.split(): {stringValue1.split()}")
+    print(f"stringValue1.split('journey'): {stringValue1.split('journey')}")
+    print(f"stringValue1.find('journey'): {stringValue1.find('journey')}")
+    print(f"stingValue1[0]: {stringValue1[0]}")
+    print(f"stingValue1[0:5]: {stringValue1[0:5]}")
+    print(f"stingValue1[0:5:2]: {stringValue1[0:5:2]}")
+    print(f"stringValue1[::-1]: {stringValue1[::-1]}")
+    print(f"stringValue1[:-1]: {stringValue1[:-1]}")

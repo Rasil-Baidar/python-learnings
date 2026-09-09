@@ -1,5 +1,6 @@
 from lessons.dataTypes.lessonNumbers import lesson_integers, lesson_floats, lesson_numbers
 from lessons.dataTypes.lessonBoolean import lesson_boolean, lesson_comparison_operators
+from lessons.dataTypes.lessonsStrings import lesson_strings
 
 print("Integers Lesson")
 print("--------------------------------\n")
@@ -21,3 +22,8 @@ print("--------------------------------\n")
 print("Comparison Operators Lesson")
 print("--------------------------------\n")
 lesson_comparison_operators()
+
+print("--------------------------------\n")
+print("String Lesson")
+print("--------------------------------\n")
+lesson_strings()
