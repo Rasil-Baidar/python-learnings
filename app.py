@@ -8,6 +8,7 @@ from lessons.dataTypes.lessonsRange import lesson_range
 
 from lessons.controlFlow.ifElse import ifElse, isPositive, isEven
 from lessons.controlFlow.forLoops import lesson_for_loops
+from lessons.controlFlow.whileLoop import lesson_while_loop
 
 print("Integers Lesson")
 print("--------------------------------\n")
@@ -75,3 +76,7 @@ print("--------------------------------\n")
 print("For Loops Lesson")
 print("--------------------------------\n")
 lesson_for_loops()
+print("--------------------------------\n")
+print("While Loop Lesson")
+print("--------------------------------\n")
+lesson_while_loop()
