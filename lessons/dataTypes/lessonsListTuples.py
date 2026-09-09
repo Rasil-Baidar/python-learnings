@@ -1,0 +1,41 @@
+def lesson_list():
+    listValue = [10,1,2,3,4,5]
+    print(f"listValue: {listValue}")
+    print(f"last value List: {listValue[-1]}")
+    print(f"Slicing in list listValue[0:3] : {listValue[0:3]}")
+    print(f"Slicing in list with step listValue[0::2]: {listValue[0::2]}")
+    print(f"Find index of 3 in list using .index() :{listValue.index(3)}")
+    print(f"Does 3 exist in list '3 in listValue'? :{3 in listValue}")
+    print(f"Count of 3 in list using .count() :{listValue.count(3)}")
+    print(f"Sort list using .sort() :{listValue.sort()}")
+    print(f"updated listValue: {listValue}")
+    print(f"Reverse list using .reverse() :{listValue.reverse()}")
+    print(f"updated listValue: {listValue}")
+    print(f"Reverse list using [::-1] :{listValue[::-1]}")
+    print(f"Push 6 into list using .append() :{listValue.append(6)}")
+    print(f"updated listValue: {listValue}")
+    print(f"Pop last element from list using .pop() :{listValue.pop()}")
+    print(f"updated listValue: {listValue}")
+    print(f"Remove 3 from list using .remove() :{listValue.remove(3)}")
+    print(f"updated listValue: {listValue}")
+    print(f"Insert 7 at index 0 using .insert() :{listValue.insert(0,7)}")
+    print(f"updated listValue: {listValue}")
+    print(f"Clear list using .clear() :{listValue.clear()}")
+    print(f"updated listValue: {listValue}")
+
+
+def lesson_tuple():
+    tupleVal = (1,2,3)
+    print(f"tupleVal: {tupleVal}")
+    print(f"Count of 2 in tuple using .count() :{tupleVal.count(2)}")
+    print(f"Index of 1 in tuple using .index(1) :{tupleVal.index(1)}")
+    a,b,c=tupleVal
+    print(f"a: {a}, b: {b}, c: {c}")
+    print(f"tupleVal[0]: {tupleVal[0]}")
+    print(f"tupleVal[1]: {tupleVal[1]}")
+    print(f"tupleVal[2]: {tupleVal[2]}")
+    print(f"tupleVal[0:2]: {tupleVal[0:2]}")
+    print(f"reverse tupleVal using [::-1] :{tupleVal[::-1]}")
+    print(f"tupleVal * 2: {tupleVal * 2}")
+    print(f"reverse tupleVal using tuple(reversed(tupleVal)) :{tuple(reversed(tupleVal))}")
+
