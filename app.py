@@ -7,7 +7,7 @@ from lessons.dataTypes.lessonsSet import lesson_set
 from lessons.dataTypes.lessonsRange import lesson_range
 
 from lessons.controlFlow.ifElse import ifElse, isPositive, isEven
-
+from lessons.controlFlow.forLoops import lesson_for_loops
 
 print("Integers Lesson")
 print("--------------------------------\n")
@@ -71,3 +71,7 @@ isEven(10)
 print("Is Even Lesson")
 print("--------------------------------\n")
 isEven(11)
+print("--------------------------------\n")
+print("For Loops Lesson")
+print("--------------------------------\n")
+lesson_for_loops()
