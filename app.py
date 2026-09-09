@@ -3,7 +3,8 @@ from lessons.dataTypes.lessonBoolean import lesson_boolean, lesson_comparison_op
 from lessons.dataTypes.lessonsStrings import lesson_strings
 from lessons.dataTypes.lessonsListTuples import lesson_list, lesson_tuple
 from lessons.dataTypes.lessonsDict import lesson_dict
-
+from lessons.dataTypes.lessonsSet import lesson_set
+from lessons.dataTypes.lessonsRange import lesson_range
 print("Integers Lesson")
 print("--------------------------------\n")
 
@@ -41,3 +42,11 @@ print("--------------------------------\n")
 print("Dict Lesson")
 print("--------------------------------\n")
 lesson_dict()
+print("--------------------------------\n")
+print("Set Lesson")
+print("--------------------------------\n")
+lesson_set()
+print("--------------------------------\n")
+print("Range Lesson")
+print("--------------------------------\n")
+lesson_range()
