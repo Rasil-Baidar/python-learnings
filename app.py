@@ -11,6 +11,7 @@ from lessons.controlFlow.forLoops import lesson_for_loops
 from lessons.controlFlow.whileLoop import lesson_while_loop
 
 from lessons.controlFlow.functionLessons import calcHt, addAll, display_person
+from lessons.controlFlow.exceptions import exception_lesson
 
 
 print("Integers Lesson")
@@ -96,3 +97,7 @@ print("--------------------------------\n")
 print("Display Person Lesson")
 print("--------------------------------\n")
 display_person(name="Rasil", age=20, city="Sydney", email="rasil@gmail.com")
+print("--------------------------------\n")
+print("Exception Lesson")
+print("--------------------------------\n")
+exception_lesson()
