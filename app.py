@@ -13,6 +13,8 @@ from lessons.controlFlow.whileLoop import lesson_while_loop
 from lessons.controlFlow.functionLessons import calcHt, addAll, display_person
 from lessons.controlFlow.exceptions import exception_lesson
 
+from lessons.classes.lessonsClass import lesson_class
+
 
 print("Integers Lesson")
 print("--------------------------------\n")
@@ -101,3 +103,7 @@ print("--------------------------------\n")
 print("Exception Lesson")
 print("--------------------------------\n")
 exception_lesson()
+print("--------------------------------\n")
+print("Class Lesson")
+print("--------------------------------\n")
+lesson_class()
